@@ -15,7 +15,7 @@ const GithubItem = ({ repo, id }) => {
         dispatch(getCommitsFetch(owner, name))
     }, [dispatch, name, owner, selected])
 
-    console.log(commits);
+    // console.log(commits);
 
     return (
         <Accordion>
